@@ -44,11 +44,8 @@ var zucchine = [
         peso: 95,
         lunghezza: 13
     },
-    {
-        varieta: "tonda",
-        peso:  100,
-        lunghezza: 14
-    }
+    {varieta: "tonda", peso:  100, lunghezza: 14}
+    // posso anche fare tutto nella stessa riga così
 ];
 var pesoTotale = 0;
 for (var i = 0; i < zucchine.length; i++) {
